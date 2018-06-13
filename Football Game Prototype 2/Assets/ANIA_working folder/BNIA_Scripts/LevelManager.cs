@@ -35,5 +35,9 @@ public class LevelManager : MonoBehaviour {
         SceneManager.LoadScene("Leaderboards");
     }
 
+    public void ShopMenu()
+    {
+        SceneManager.LoadScene("ShopMenu");
+    }
 
 }

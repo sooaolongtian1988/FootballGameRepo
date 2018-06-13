@@ -199,6 +199,63 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1001 &8934313
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114119084728537746, guid: ca37f06a6304b8f4b98697261bcce887,
+        type: 2}
+      propertyPath: heightSlider
+      value: 
+      objectReference: {fileID: 3432639}
+    - target: {fileID: 114119084728537746, guid: ca37f06a6304b8f4b98697261bcce887,
+        type: 2}
+      propertyPath: curveSlider
+      value: 
+      objectReference: {fileID: 2142403186}
+    - target: {fileID: 23144596624491864, guid: ca37f06a6304b8f4b98697261bcce887,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e57ea3989dc7f4e50bd55982de841177, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &127467264
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,7 +720,7 @@ MeshFilter:
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114119084728537746, guid: ca37f06a6304b8f4b98697261bcce887,
     type: 2}
-  m_PrefabInternal: {fileID: 1485360459}
+  m_PrefabInternal: {fileID: 8934313}
   m_Script: {fileID: 11500000, guid: 1ab967439df97144abed809caa726a38, type: 3}
 --- !u!1 &459889967 stripped
 GameObject:
@@ -1467,80 +1524,6 @@ RectTransform:
   m_AnchoredPosition: {x: 5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1001 &1485360459
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.27
-      objectReference: {fileID: 0}
-    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114119084728537746, guid: ca37f06a6304b8f4b98697261bcce887,
-        type: 2}
-      propertyPath: heightSlider
-      value: 
-      objectReference: {fileID: 3432639}
-    - target: {fileID: 114119084728537746, guid: ca37f06a6304b8f4b98697261bcce887,
-        type: 2}
-      propertyPath: curveSlider
-      value: 
-      objectReference: {fileID: 2142403186}
-    - target: {fileID: 54371422119866138, guid: ca37f06a6304b8f4b98697261bcce887,
-        type: 2}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 54371422119866138, guid: ca37f06a6304b8f4b98697261bcce887,
-        type: 2}
-      propertyPath: m_Constraints
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.22
-      objectReference: {fileID: 0}
-    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.22
-      objectReference: {fileID: 0}
-    - target: {fileID: 4863444056280824, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.22
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: ca37f06a6304b8f4b98697261bcce887, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1493793324
 GameObject:
   m_ObjectHideFlags: 0
