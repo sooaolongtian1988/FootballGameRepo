@@ -4,10 +4,35 @@ using UnityEngine;
 
 public class ButtonFunction : MonoBehaviour {
 
-	public DataForManipulate ggg;
-	public DataForManipulate fff;
+	public DataForManipulate savableData;
 
-	public void SetData(){
+    public void BuyBall1()
+    {
+        savableData.ball1 = true;
+        print(savableData.ball1);
+    }
+
+    public void BuyBall2()
+    {
+        savableData.ball1 = true;
+    }
+
+    public void BuyBall3()
+    {
+        savableData.ball1 = true;
+    }
+
+    public void BuyBall4()
+    {
+        savableData.ball1 = true;
+    }
+
+
+
+
+
+
+    /*public void SetData(){
 		ggg.myNamess = "sky";
 		ggg.agess += 1;
 		ggg.heightss += 0.522f;
@@ -28,6 +53,6 @@ public class ButtonFunction : MonoBehaviour {
 	public void trytry(){
 		
 	
-	}
+	}*/
 
 }

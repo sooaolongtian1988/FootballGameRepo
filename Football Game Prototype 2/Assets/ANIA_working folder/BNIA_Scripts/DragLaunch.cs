@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class DragLaunch : MonoBehaviour
 {
+
     public Slider heightSlider;
     public Slider curveSlider;
     float startTime, endTime;
@@ -38,7 +39,8 @@ public class DragLaunch : MonoBehaviour
 
         float launchSpeedX = (dragEnd.x - dragStart.x) / dragDuration;
         float launchSpeedZ = (dragEnd.y - dragStart.y) / dragDuration;
-
+        //the divided by 50 because i have scale the model size down because i want the physic to work, unity physic system work like real world physic,
+        //that is why we need to make the size as accurate possible.
         Vector3 launchVelocity = (new Vector3(launchSpeedX, launchSpeedZ / heightSlider.value, launchSpeedZ))/50;
         ball.Launch(launchVelocity);
         StartCoroutine(BallCurve());
